@@ -81,6 +81,7 @@
 }
 
 #copy_right{
+  text-align: center;
   background-color: #575757;
   color: #bcbcbc;
   align-self: center;
