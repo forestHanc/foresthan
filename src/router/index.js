@@ -5,6 +5,7 @@ import About from '../views/About.vue'
 import Todo from '../views/Todo.vue'
 import Contact from '../views/Contact.vue'
 import GIT from '../views/GIt持续部署.vue'
+import MD from '../views/MD文档静态部署.vue'
 
 Vue.use(VueRouter)
 
@@ -33,6 +34,11 @@ const routes = [
     path: '/GIT',
     name: 'GIT',
     component: GIT
+  },
+  {
+    path: '/MD',
+    name: 'MD',
+    component: MD
   }
 ]
 

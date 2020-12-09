@@ -11,7 +11,8 @@
         <router-link to="/about">About</router-link> |
         <router-link to="/todo">Todo</router-link> |
         <router-link to="/contact">Contact</router-link> |
-        <router-link to="/GIT">GIT</router-link>
+        <router-link to="/GIT">GIT</router-link> |
+        <router-link to="/MD">MD</router-link>
       </div>
     </div>
     <!-- router对象 -->
