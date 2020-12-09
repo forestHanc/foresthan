@@ -10,7 +10,8 @@
         <router-link to="/">Home</router-link> |
         <router-link to="/about">About</router-link> |
         <router-link to="/todo">Todo</router-link> |
-        <router-link to="/contact">Contact</router-link>
+        <router-link to="/contact">Contact</router-link> |
+        <router-link to="/GIT">GIT</router-link>
       </div>
     </div>
     <!-- router对象 -->
@@ -36,7 +37,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
-  text-align: center;
+  /* text-align: center; */
   /* background-image: url('./assets/snowFores.png');
   background-position: center;
   background-size: cover;
