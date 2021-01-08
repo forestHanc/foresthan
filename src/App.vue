@@ -7,12 +7,10 @@
         <h1>foresthan</h1>
       </div>
       <div id="nav_router">
-        <router-link to="/">Home</router-link> |
-        <router-link to="/about">About</router-link> |
-        <router-link to="/todo">Todo</router-link> |
-        <router-link to="/contact">Contact</router-link> |
-        <router-link to="/GIT">GIT</router-link> |
-        <router-link to="/MD">MD</router-link>
+        <router-link to="/">首页</router-link> |
+        <router-link to="/doc">随笔</router-link> |
+        <router-link to="/html">特效</router-link> |
+        <router-link to="/about">关于</router-link>
       </div>
     </div>
     <!-- router对象 -->
@@ -22,7 +20,7 @@
     <!-- 备案及版权信息 -->
     <div id="copy_right">
       <p>Designed By foresthan</p>
-      <a href="https://beian.miit.gov.cn">苏ICP备19074142号</a>
+      <a href="https://beian.miit.gov.cn">苏ICP备19074142号-2</a>
     </div>
   </div>
 </template>
