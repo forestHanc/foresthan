@@ -1,0 +1,7 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  # Vue CLI 4 bundles webpack 4, which relies on the legacy MD4 hash removed from Node 17+'s default OpenSSL provider.
+  NODE_OPTIONS = "--openssl-legacy-provider"
